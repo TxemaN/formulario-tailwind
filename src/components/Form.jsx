@@ -2,7 +2,7 @@ import React from 'react'
 
 export const Form = () => {
     return (
-        
+        /*dsdsdsdd*/
         <div>
      <h1 className='text-center mt-2'>.</h1>
             <h2 className='text-center mt-5'>Calcula el precio de un alquiler rellenando este simple formulario</h2>
