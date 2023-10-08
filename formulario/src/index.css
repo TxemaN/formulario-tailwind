@@ -15,7 +15,11 @@
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
 }
-
+.btn-primary {
+  color: #132a42;
+  background-color: rgb(4, 27, 27);
+  border-color: #5bc2c2
+}
 
 @media (prefers-color-scheme: light) {
   :root {

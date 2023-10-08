@@ -40,8 +40,8 @@ export const Form = () => {
                                 <label htmlFor="no"> No </label>
                                 <input type="radio" name='ascensor' id='sinAscensor' value="no" />
                             </div>
-                            <div className="form-group">
-                                <input type="submit" className="btn btn-primary" value="Calcula" />
+                            <div className="form-group ">
+                                <input type="submit" className="btn btn-primary text-light" value="Calcula" />
                             </div>
 
 
@@ -51,8 +51,8 @@ export const Form = () => {
 
                                 <div className="card mt-5">
                                     <h5 className="card-title h5 h4-sm mt-3 text-center" >Predicción de precios</h5>
-                                    <a href="#" className="btn btn-primary mt-3">Máximo</a>
-                                    <a href="#" className="btn btn-primary mt-3">Mínimo</a>
+                                    <a href="#" className="btn btn-primary mt-3 text-light">Máximo</a>
+                                    <a href="#" className="btn btn-primary mt-3 text-light">Mínimo</a>
                                 </div>
                             </div>
                             <div className="col-6 col-lg-6 background2" >
