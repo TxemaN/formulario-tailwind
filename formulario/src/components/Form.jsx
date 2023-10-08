@@ -2,11 +2,14 @@ import React from 'react'
 
 export const Form = () => {
     return (
+        
         <div>
+     <h1 className='text-center mt-2'>.</h1>
             <h2 className='text-center mt-5'>Calcula el precio de un alquiler rellenando este simple formulario</h2>
             <div className='container mt-5'>
                 <div className='row'>
                     <div className="col-6 col-lg-6 background2">
+                   
                         <form className='card' action="">
 
 
@@ -47,7 +50,7 @@ export const Form = () => {
                             <div className="col-6 col-lg-6 background2" >
 
                                 <div className="card mt-5">
-                                    <h5 class="card-title h5 h4-sm mt-3 text-center" >Predicción de precios</h5>
+                                    <h5 className="card-title h5 h4-sm mt-3 text-center" >Predicción de precios</h5>
                                     <a href="#" className="btn btn-primary mt-3">Máximo</a>
                                     <a href="#" className="btn btn-primary mt-3">Mínimo</a>
                                 </div>
@@ -55,7 +58,7 @@ export const Form = () => {
                             <div className="col-6 col-lg-6 background2" >
 
                                 <div className="card mt-5">
-                                    <h5 class="card-title h5 h4-sm mt-3 text-center">Evolución de precios en la zona</h5>
+                                    <h5 className="card-title h5 h4-sm mt-3 text-center">Evolución de precios en la zona</h5>
                                     <img src="https://conceptosclaros.com/wp-content/uploads/2016/12/hockey-stick-plot.jpg" alt="" />
                                 </div>
                             </div>
@@ -66,7 +69,7 @@ export const Form = () => {
                     <div className="col-6 col-lg-6 background2" >
 
                         <div className="card">
-                            <h5 class="card-title h5 h4-sm mt-3 text-center">Precio estimado por zona según las características escogidas</h5>
+                            <h5 className="card-title h5 h4-sm mt-3 text-center">Precio estimado por zona según las características escogidas</h5>
                             <img src="https://www.mapasdeespana.com/provincia/mapa-provincia-madrid.png" alt="" />
                         </div>
                     </div>
